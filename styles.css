@@ -1,0 +1,83 @@
+#main_field{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 462px;
+	height: 462px;
+	margin: -225px 0 0 -225px;
+	border: 1px solid black;
+	z-index: 2;
+}
+
+.fields{
+	border: 2px solid black;
+	float: left;
+	height: 150px;
+	width: 150px;
+
+}
+
+.player1{
+	background-image: url(img/x.png);
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.player2{
+	background-image: url(img/0.png);
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.ai{
+	background-image: url(img/0.png);
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+
+.fields:hover{
+	border-color: red;
+}
+
+.button_top{
+	text-align: center;
+	z-index: 1;
+
+}
+
+.button {
+	background-color: #555555;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 15px 32px;
+}
+
+.button:hover {
+	border: 1px solid blue;
+}
+
+.button_clicked{
+	background-color: #555555;
+	border: 1px solid red;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 15px 32px;
+}
+
+.button_clicked:focus {
+	outline: none;
+}
+
+
